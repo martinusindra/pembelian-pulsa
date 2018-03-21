@@ -26,6 +26,8 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
 
+        getSupportActionBar().setTitle("Login User");
+
         eUsername = findViewById(R.id.eUsername);
         ePassword = findViewById(R.id.ePassword);
         bLogin = findViewById(R.id.bLogin);

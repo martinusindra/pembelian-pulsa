@@ -52,6 +52,8 @@ public class TransactionActivity extends AppCompatActivity implements OperatorFr
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_transaction);
 
+        getSupportActionBar().setTitle("Transaction");
+
         app = (MyApplication) getApplication();
 
         ePhoneNumber = (EditText) findViewById(R.id.ePhoneNumber);
